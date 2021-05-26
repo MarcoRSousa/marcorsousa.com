@@ -1,0 +1,21 @@
+.suggested li {
+    line-height: 1em;
+    margin:0;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+.suggested a {
+    text-decoration: none;
+}
+
+/* mouse over link */
+.suggested a:hover {
+    color: rgb(16, 16, 124);
+    text-decoration: underline;
+  }
+
+.suggested h4 {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}

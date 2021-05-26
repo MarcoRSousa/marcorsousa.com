@@ -1,0 +1,76 @@
+.header {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-right: 5%;
+    padding-left: 15%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid;
+    
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+}
+/* Formatting my name text*/
+.title{
+  color:black;
+  font-size: .9rem;
+  text-decoration: none;
+}
+
+/* Formatting the left 1fr grid; we want it centered*/
+.name {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Formatting underline*/
+.name a { 
+  border-bottom: 1.5px solid transparent;
+}
+.name a:hover {
+  border-color: black;
+}
+
+/* Formatting image*/
+.name img {
+  object-fit: cover;
+  border-radius:50%;
+  width: 30px;
+  height: 30px;
+  border: 0.5px solid black;
+  margin-right: 4px;
+  border-bottom: none;
+}
+
+.links {
+  display: inline-flex;
+  align-items: center;
+}
+
+.links a {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 300px;
+  border-bottom: 1.5px solid transparent;
+}
+.links a:hover {
+  border-color: black;
+}
+
+.nav-item {
+  color:#666666;
+  font-size: .9rem;
+  margin-right: 1.3rem;
+  text-decoration: none;
+}
+
+.nav-item:hover{
+  color: black;
+}
+
+.active-nav-item {
+  color: black;
+}
