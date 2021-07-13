@@ -4,6 +4,8 @@ import {graphql} from 'gatsby'
 
 import Head from "../components/head"
 
+import * as blogStyle from "./blog.template.module.scss"
+
 export const query = graphql`
 query (
   $slug: String!
@@ -17,7 +19,8 @@ query (
   ) {
     frontmatter {
       title
-      date
+      details
+      date(formatString: "LL")
     }
     html
   }
@@ -27,8 +30,10 @@ export default function Blog(props) {
     return (
         <Layout>
           <Head title = {props.data.markdownRemark.frontmatter.title}/>
-            <h1>{props.data.markdownRemark.frontmatter.title}</h1>
+            <h1 className= {blogStyle.titleTop}>{props.data.markdownRemark.frontmatter.title}</h1>
+            <h2 className= {blogStyle.detailsTop} style={{color: 'gray'}}>{props.data.markdownRemark.frontmatter.details} </h2>
             <p>{props.data.markdownRemark.frontmatter.date}</p>
+            <br/>
             <div dangerouslySetInnerHTML={{__html: props.data.markdownRemark.html}}>
             </div>
         </Layout>

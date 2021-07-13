@@ -5,11 +5,26 @@
 }
 
 .content {
-    margin-left: 20%;
-    margin-right: 20%;
-    padding: 1rem;
+    //Current inplementation isnt centered but at least we sorta gets both
+    max-width: 800px;
+    min-width: 400px;
 
+    margin-left: 25%;
+    //margin-right: 25%;
+    padding: 1rem;
+    padding-top: 2rem;
+    
     flex-grow: 1;
 }
 
+.content a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+/* mouse over link */
+.content a:hover {
+    color: var(--linkHover);
+    text-decoration: underline;
+  }
 

@@ -9,8 +9,8 @@ export default function About() {
   <Layout>
     <Head title="About"/>
     <h1> About Me </h1>
-    <p>I recently graduated from University of Massachusetts Dartmouth with a dual major in Mathematics and Data Science. I enjoy machine learning, statistics and probability as it relates to gaming, philosophy, chess, and clasical music.</p>
-    
+    <p>I recently graduated from University of Massachusetts Dartmouth with a dual major in Mathematics and Data Science. 
+      I enjoy machine learning, statistics, data and math applications to gaming, philosophy, chess, and classical music.</p>
     <p>See my <Link to="/contact">contacts</Link> to get in touch!</p>
   </Layout>
   )

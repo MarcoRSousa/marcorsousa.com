@@ -1,15 +1,15 @@
 ---
 title: 'Welcome to my Website'
-date: '2021-01-01'
+details: 'A surprise to be sure, but a welcome one.'
+date: '2021-05-05'
 ---
 
 # Welcome!
 
-Welcome to my website! This is my most naive version, and I hope to improve it over time!
+This is a simple and quick implementation, and I hope to improve it over time!
 
-On this site I share some of the many miscallaneous project I work on, and things I'm interested in.
+On this site I share some of the many miscallaneous projects I work on, and things I'm interested in.
 
-![kusa.jpg](kusa.jpg)
+Thank you for your interest in my content!
 
-
-Thank you if you find any interest with any content I produce!
+![A-surprise-to-be-sure.png](A-surprise-to-be-sure.png)

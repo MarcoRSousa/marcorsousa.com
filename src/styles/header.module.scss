@@ -1,48 +1,53 @@
 .header {
-    background-color: white;
+    background-color: 'var(--bg)';
+    //background-color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-right: 5%;
     padding-left: 15%;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     padding-top: 5px;
     border-bottom: 1px solid;
-    
-    align-items: center;
 
-    position: sticky;
-    top: 0;
+    align-items: center;
+    
+    //sticky header is transparent
+    //position: sticky;
+    //top: 0;
 }
 /* Formatting my name text*/
 .title{
-  color:black;
+  color:var(--defaultColor);
   font-size: .9rem;
   text-decoration: none;
 }
 
-/* Formatting the left 1fr grid; we want it centered*/
+/* Styling the left 1fr grid; we want it centered*/
 .name {
   display: inline-flex;
   align-items: center;
+  margin-right: 2rem;
 }
 
-/* Formatting underline*/
-.name a { 
+/* Styling underline for my name but not the face*/
+.title  { 
   border-bottom: 1.5px solid transparent;
 }
-.name a:hover {
-  border-color: black;
+.title:hover {
+  color: var(--linkHover);
+  border-color: var(--linkHover);
 }
 
-/* Formatting image*/
+/* Styling image*/
 .name img {
   object-fit: cover;
   border-radius:50%;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  min-height: 40px;
   border: 0.5px solid black;
   margin-right: 4px;
-  border-bottom: none;
 }
 
 .links {
@@ -57,7 +62,8 @@
   border-bottom: 1.5px solid transparent;
 }
 .links a:hover {
-  border-color: black;
+  color: var(--linkHover);
+  border-color: var(--linkHover);
 }
 
 .nav-item {
@@ -68,9 +74,60 @@
 }
 
 .nav-item:hover{
-  color: black;
+  color: dodgerblue;
 }
 
 .active-nav-item {
   color: black;
 }
+
+.dark-button {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -3px;
+}
+.dark-button:before, .dark-button:after {
+  box-sizing: border-box;
+}
+.dark-button label {
+  position: relative;
+  display: block;
+  width: 45px;
+  height: 25px;
+  border-radius: 100px;
+  background-color: #252525;
+  overflow: hidden;
+  cursor: pointer;
+}
+.dark-button label:before, .dark-button label:after {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  top: 3px;
+  left: 3px;
+  transition: 0.5s ease;
+}
+.dark-button label:before {
+  background-color: var(--currentColor);
+}
+.dark-button label:after {
+  background-color: #252525;
+  left: -58px;
+  transform: scale(0.00001);
+}
+.dark-button input[type=checkbox] {
+  display: none;
+}
+.dark-button input[type=checkbox]:checked + label:before {
+  background-color: var(--currentColor);
+  transform: translateX(20px);
+}
+.dark-button input[type=checkbox]:checked + label:after {
+  transform: translateX(75px) scale(1);
+}
+
