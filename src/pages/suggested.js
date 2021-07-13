@@ -32,14 +32,6 @@ export default function Suggest() {
         <li> <a href= "https://www.youtube.com/c/projectroyal/videos" target = "_blank" rel="noopener noreferrer">Project Royal</a></li>
         <li> Classical and <a href= "https://www.youtube.com/c/twosetviolin/videos" target = "_blank" rel="noopener noreferrer"> TwoSetViolin</a></li>
       </ol>
-      <h4> Politics </h4>
-      <ol className={suggestedStyle.suggested}>
-        <li> <a href= "https://www.dailywire.com/" target = "_blank" rel="noopener noreferrer">The Daily Wire</a></li>
-        <li> <a href= "https://www.youtube.com/c/AndrewKlavan/videos" target = "_blank" rel="noopener noreferrer">Andrew Klavan</a></li>
-        <li> <a href= "https://www.youtube.com/c/BenShapiro/videos" target = "_blank" rel="noopener noreferrer">Ben Shapiro</a></li>
-        <li> <a href= "https://www.youtube.com/c/RubinReport/videos" target = "_blank" rel="noopener noreferrer">The Rubin Report</a></li>
-        <li> <a href= "https://www.youtube.com/c/dineshdsouza/videos" target = "_blank" rel="noopener noreferrer">Dinesh D'Souza</a></li>
-      </ol>
       <h2>Book List</h2>
       <p>Note that these are 'lazy links'; you may find better sellers/products yourself.
         Also, these are not all great books, but only those that I have had the opportunity to read at present.

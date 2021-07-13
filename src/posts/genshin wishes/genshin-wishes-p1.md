@@ -6,7 +6,6 @@ date: '2021-06-06'
 
 ## Let's talk Genshin, Gacha, and Statistics!
 
-
 Genshin Impact is a free-to-play game developed by miHoYo in which players to use up to four characters to explore an open world and participate in its many activities. The primary method of acquiring new valuable characters and weapons is through "wishing". Wishing is a method in which you spend in-game currency to randomly acquire new items. This is similar to opening packs of cards, and is known as a <a href="https://en.wikipedia.org/wiki/Gacha_game" target="_blank">gacha system</a>. Like most gacha games, there are varying chances for acquiring items of different rarities. In Genshin, there are three rarities that you may summon for: 3-Star, 4-Star, and 5-Star; with 5-star being the most rare. 
 
 ![5 Star Hu Tao](my-Hu-Tao-summon-pog.png)
