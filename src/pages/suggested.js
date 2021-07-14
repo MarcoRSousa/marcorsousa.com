@@ -56,14 +56,13 @@ export default function Suggest() {
         <li> <a href= "https://www.amazon.com/Punishment-Penguin-Classics-Fyodor-Dostoyevsky/dp/0140449132/ref=sr_1_1?crid=2SDU8VZ3AYWE1&dchild=1&keywords=crime+and+punishment+penguin+classics&qid=1621969787&s=books&sprefix=Crime+and+Punishment+penguin+class%2Cstripbooks%2C172&sr=1-1" target = "_blank" rel="noopener noreferrer">Dostoevsky: Crime and Punishment</a></li>
 
         <li> <a href= "https://www.amazon.com/Rage-Responsibility-Conservative-Peterson-America/dp/1557789363/ref=sr_1_2?crid=24GH650FOZGQJ&dchild=1&keywords=from+rage+to+responsibility&qid=1621970123&s=books&sprefix=from+rage+to+resp%2Cstripbooks%2C183&sr=1-2" target = "_blank" rel="noopener noreferrer">Jesse Lee Peterson: From Rage to Responsibility</a></li>
-        <li> <a href= "https://www.amazon.com/Meditations-Marcus-Aurelius/dp/1503280462/ref=pd_lpo_14_img_2/134-0895165-7367607?_encoding=UTF8&pd_rd_i=1503280462&pd_rd_r=9f311800-58b6-4b8d-9217-6cf1bb3d056a&pd_rd_w=r8m4o&pd_rd_wg=dq41W&pf_rd_p=a0d6e967-6561-454c-84f8-2ce2c92b79a6&pf_rd_r=3PBY4EM8AWR9AZ1X3HVF&psc=1&refRID=3PBY4EM8AWR9AZ1X3HVF" target = "_blank" rel="noopener noreferrer">Aurelius: Meditations</a></li>
+        <li> <a href= "https://www.amazon.com/Meditations-Marcus-Aurelius/dp/1503280462/ref=pd_lpo_14_img_2/134-0895165-7367607?_encoding=UTF8&pd_rd_i=1503280462&pd_rd_r=9f311800-58b6-4b8d-9217-6cf1bb3d056a&pd_rd_w=r8m4o&pd_rd_wg=dq41W&pf_rd_p=a0d6e967-6561-454c-84f8-2ce2c92b79a6&pf_rd_r=3PBY4EM8AWR9AZ1X3HVF&psc=1&refRID=3PBY4EM8AWR9AZ1X3HVF" target = "_blank" rel="noopener noreferrer">Marcus Aurelius: Meditations</a></li>
 
         <li> <a href= "https://www.amazon.com/Brave-New-World-Aldous-Huxley/dp/0060850523" target = "_blank" rel="noopener noreferrer">Huxley: Brave New World</a></li>
         <li> <a href= "https://www.amazon.com/Fahrenheit-451-Ray-Bradbury/dp/1451673310" target = "_blank" rel="noopener noreferrer">Bradbury: Fahrenheit 451</a></li>
         <li>Golding: Lord of the Flies</li>
         <li>Orwell: 1984</li>
         <li>C.S. Lewis: The Screwtape Letters </li>
-       <li>Marcus Aurelius: 'Meditations'</li>
       </ol>
 
       <h4> Mathematics </h4>
