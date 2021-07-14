@@ -62,6 +62,8 @@ export default function Suggest() {
         <li> <a href= "https://www.amazon.com/Fahrenheit-451-Ray-Bradbury/dp/1451673310" target = "_blank" rel="noopener noreferrer">Bradbury: Fahrenheit 451</a></li>
         <li>Golding: Lord of the Flies</li>
         <li>Orwell: 1984</li>
+        <li>C.S. Lewis: The Screwtape Letters </li>
+       <li>Marcus Aurelius: 'Meditations'</li>
       </ol>
 
       <h4> Mathematics </h4>
