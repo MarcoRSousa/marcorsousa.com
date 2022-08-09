@@ -9,8 +9,7 @@ export default function Home() {
   return(
     <Layout>
       <Head title="Home"/>
-      <h1> Hello and welcome to my not-very-formatted blog! </h1>
-      <p>Here I post about various miscellaneous projects I work on.</p>
+      <p>I post about various miscellaneous math/data projects I work on. Many are related to gaming or my other interests!</p>
       
       <p>If interested, perhaps check out my <Link to="/blog">blog posts</Link>.</p>
       <p>To contact me, please visit my <Link to="/contact">Contacts</Link> page.</p>

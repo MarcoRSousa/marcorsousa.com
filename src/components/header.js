@@ -32,6 +32,7 @@ export default function Header() {
         <Link to="/blog" className={headerStyle.navItem} activeClassName={headerStyle.activeNavItem}>Blog</Link>
         <Link to="/about" className={headerStyle.navItem} activeClassName={headerStyle.activeNavItem}>About</Link>
         <Link to="/contact" className={headerStyle.navItem} activeClassName={headerStyle.activeNavItem}>Contact</Link>
+        <Link to="/projects" className={headerStyle.navItem} activeClassName={headerStyle.activeNavItem}>Projects</Link>
         <Link to="/suggested" className={headerStyle.navItem} activeClassName={headerStyle.activeNavItem}>Suggested Content</Link>
         
         <ThemeToggler>
@@ -45,7 +46,7 @@ export default function Header() {
                       }
                       checked={theme === "dark"}
                     />
-                    <label for="toggle" ></label>
+                    <label for="toggle"></label>
                   </div>
                 )}
               </ThemeToggler>

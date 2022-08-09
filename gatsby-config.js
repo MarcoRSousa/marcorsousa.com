@@ -14,18 +14,23 @@ module.exports = {
     'gatsby-plugin-dark-mode',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
-    {
-      resolve: 'gatsby-source-filesystem',
+    'gatsby-plugin-sharp',
+    {resolve: 'gatsby-source-filesystem',
       options: {
         name:'src',
         path: `${__dirname}/src/`
       }
     },
-    'gatsby-plugin-sharp', 
-    {
-      resolve: 'gatsby-transformer-remark',
+    {resolve: "gatsby-plugin-page-creator",
       options: {
-        plugins: [
+        path: `${__dirname}/src/`,
+      },
+    },
+    {resolve: `gatsby-plugin-mdx`,
+      options: {
+        remarkPlugins: [require('remark-math'),],
+        rehypePlugins: [require('rehype-katex'), { strict: 'ignore' }],
+        gatsbyRemarkPlugins: [
           'gatsby-remark-relative-images',
           {
             resolve: 'gatsby-remark-images',
@@ -34,14 +39,6 @@ module.exports = {
               linkImagesToOriginal: false
             }
           },
-          {
-            resolve: `gatsby-remark-katex`,
-            options: {
-              // Add any KaTeX options from https://github.com/KaTeX/KaTeX/blob/master/docs/options.md here
-              //strict: `ignore`,
-             
-            }
-          }, 
           {
             resolve: `gatsby-remark-prismjs`,
             options: {
@@ -76,13 +73,11 @@ module.exports = {
             escapeEntities: {},
             }
           },
-
         ]
       }
     },
     //head/helmet icon
-    {
-      resolve: `gatsby-plugin-manifest`,
+    {resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'React go',
         short_name: 'Reactgo',
@@ -90,7 +85,8 @@ module.exports = {
         background_color: '#f7f0eb',
         theme_color: '#a2466c',
         display: 'standalone',
-        icon: 'src/images/temp-marco-circle.png',      },
+        icon: 'src/images/temp-marco-circle.png',      
+      },
     }
     
     
