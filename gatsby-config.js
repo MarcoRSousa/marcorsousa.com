@@ -18,16 +18,17 @@ module.exports = {
     {resolve: 'gatsby-source-filesystem',
       options: {
         name:'src',
-        path: `${__dirname}/src/`
+        path: `${__dirname}/src/posts/`
       }
     },
     {resolve: "gatsby-plugin-page-creator",
       options: {
-        path: `${__dirname}/src/`,
+        path: `${__dirname}/src/posts/`,
       },
     },
     {resolve: `gatsby-plugin-mdx`,
       options: {
+        extensions: [`.mdx`],
         remarkPlugins: [require('remark-math'),],
         rehypePlugins: [require('rehype-katex'), { strict: 'ignore' }],
         gatsbyRemarkPlugins: [
